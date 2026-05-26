@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+
+    <div class="cabeca">
+
+    </div>
+
+    <div class="coluna"></div>
+
+
+    <div class="conteudo">
+
+        <div class="caixa">
+
+            <div class="texto">
+
+                <h1> Faça Parte da Nossa Banda </h1>
+
+                <p>
+                        Você sonha em tocar em uma banda, subir em palcos e criar músicas incríveis?
+                    Estamos procurando músicos apaixonados, criativos e com vontade de crescer juntos.
+
+                    <br>
+
+                       Preencha o formulário abaixo com suas informações, experiência musical e estilo favorito.
+                    Queremos conhecer seu talento e descobrir como você pode fazer parte da nossa próxima formação!
+
+                    <br>
+
+                       Boa sorte, talvez você seja o próximo integrante da banda!
+
+                </p>
+
+            </div>
+
+            <form action="/submit" method="post">
+
+                <h2>Informações pessoais</h2>
+
+                <div class="form-group">
+
+                    <label for="nome"></label>
+
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo...">
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="data_nascimento"></label>
+
+                    <input type="date" name="data_nascimento" id=data_nascimento">
+
+                 </div>
+
+                 <br>
+
+
+                 <h2>Contatos</h2>
+
+                <div class="form-group">
+
+                    <label for="telefone"></label>
+
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email"></label>
+
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+                </div>
+
+                <br>
+
+
+                <h2>Endereço</h2>
+
+                <div class="form-group">
+
+                    <label for="email"></label>
+
+                    <input type="email" name="email" id="email" placeholder="digite seu email">
+
+                </div>
+
+                <br>
+
+                <h2>Instrumento</h2>
+                
+                <div class="form-group">
+
+                    <select name="Instrumento" id="Instrumento" multiple size="5">
+
+                        <option value="bateria">Bateria</option>
+                        <option value="baixo">Baixo</option>
+                        <option value="guitarra">Guitarra</option>
+                        <option value="vocal">Vocal</option>
+                        <option value="teclado">Teclado</option>
+
+                    </select>
+
+                </div>
+
+                <br>
+                
+                <h2>Influências</h2>
+
+                <div class="form-group">
+                    <label for="comentarios">Comentários:</label>
+                        <br>
+                    <textarea id="comentarios" name="comentarios"> </textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Enviar </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    
+    <div class="coluna " style="float: right;"></div>
+
+    <div class="pe"></div>
+
+</body>
+</html>
