@@ -10,8 +10,6 @@
 </head>
 <body>
 
-    <div class="cabeca">
-
     </div>
 
     <div class="coluna"></div>
@@ -19,36 +17,15 @@
 
     <div class="conteudo">
 
-        <div class="caixa">
-
-            <div class="texto">
-
-                <h1> Faça Parte da Nossa Banda </h1>
-
-                <p>
-                        Você sonha em tocar em uma banda, subir em palcos e criar músicas incríveis?
-                    Estamos procurando músicos apaixonados, criativos e com vontade de crescer juntos.
-
-                    <br>
-
-                       Preencha o formulário abaixo com suas informações, experiência musical e estilo favorito.
-                    Queremos conhecer seu talento e descobrir como você pode fazer parte da nossa próxima formação!
-
-                    <br>
-
-                       Boa sorte, talvez você seja o próximo integrante da banda!
-
-                </p>
-
-            </div>
-
             <form action="/submit" method="post">
 
-                <h2>Informações pessoais</h2>
+                <h3>Cadastre-se</h3>
 
                 <div class="form-group">
 
-                    <label for="nome"></label>
+                    <label for="nome">|Nome</label>
+
+                    <br>
 
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo...">
 
@@ -56,59 +33,49 @@
 
                 <div class="form-group">
 
-                    <label for="data_nascimento"></label>
+                    <label for="data_nascimento">Data de nascimento</label>
+
+                     <br>
 
                     <input type="date" name="data_nascimento" id=data_nascimento">
 
                  </div>
 
-                 <br>
 
-
-                 <h2>Contatos</h2>
 
                 <div class="form-group">
 
-                    <label for="telefone"></label>
+                    <label for="telefone">Telefone</label>
 
-                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" >
+                    <br>
+
+                    <input type="tel" name="telefone" id="telefone" placeholder="(55) 99999-9999" >
 
                 </div>
 
                 <div class="form-group">
 
-                    <label for="email"></label>
+                    <label for="email">Email</label>
+
+                    <br>
 
                     <input type="email" name="email" id="email" placeholder="Digite seu email">
 
                 </div>
-
-                <br>
-
-
-                <h2>Endereço</h2>
-
-                <div class="form-group">
-
-                    <label for="email"></label>
-
-                    <input type="email" name="email" id="email" placeholder="digite seu email">
-
-                </div>
-
-                <br>
-
-                <h2>Instrumento</h2>
                 
                 <div class="form-group">
 
-                    <select name="Instrumento" id="Instrumento" multiple size="5">
+                    <label for="pais">Pais</label>
 
-                        <option value="bateria">Bateria</option>
-                        <option value="baixo">Baixo</option>
-                        <option value="guitarra">Guitarra</option>
-                        <option value="vocal">Vocal</option>
-                        <option value="teclado">Teclado</option>
+                    <br>
+
+                    <select name="pais" id="pais">
+
+                        <option value="bateria">Brasil</option>
+                        <option value="baixo">Estados Unidos</option>
+                        <option value="guitarra">Canada</option>
+                        <option value="vocal">Mexico</option>
+                        <option value="teclado">Reinos Unidos</option>
 
                     </select>
 
@@ -116,7 +83,25 @@
 
                 <br>
                 
-                <h2>Influências</h2>
+                <div class="class-group">
+
+                    <label>habilidades</label>
+
+                    <label for="html">
+                            <input type="checkbox" id="html" name="habilidades" value="HTML">HTML
+                    </label>
+
+                    <label for="css">
+                            <input type="checkbox" id="css" name="habilidades" value="CSS">CSS
+                    </label>
+
+                    <label for="portugol">
+                            <input type="checkbox" id="portugol" name="habilidades" value="portugol">Portugol
+                    </label>
+
+                </div>
+
+                <br>
 
                 <div class="form-group">
                     <label for="comentarios">Comentários:</label>
@@ -130,12 +115,7 @@
 
             </form>
 
-        </div>
-
     </div>
-
-    
-    <div class="coluna " style="float: right;"></div>
 
     <div class="pe"></div>
 
